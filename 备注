@@ -1,3 +1,5 @@
 android.injected.testOnly=fasle vivo测试添加这个
 
 scrollview与doodleview和webview嵌套 用            getParent().requestDisallowInterceptTouchEvent(false); 拦截手势
+
+引入新的工程注意gradle 版本，和gradle.properties  例：D:\androidworkspace\trunk\code\gradle.properties
