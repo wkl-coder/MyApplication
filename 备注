@@ -1,6 +1,12 @@
-android.injected.testOnly=fasle vivo测试添加这个
+1.android.injected.testOnly=fasle vivo测试添加这个
 
-scrollview与doodleview和webview嵌套 用            getParent().requestDisallowInterceptTouchEvent(false); 拦截手势
+2.scrollview与doodleview和webview嵌套 用getParent().requestDisallowInterceptTouchEvent(false); 拦截手势
 webview需要注意不能用单位适配。需要用px匹配
 
-引入新的工程注意gradle 版本，和gradle.properties  例：D:\androidworkspace\trunk\code\gradle.properties
+3.引入新的工程注意gradle 版本，和gradle.properties  例：D:\androidworkspace\trunk\code\gradle.properties
+
+4.https://github.com/ltttttttttttt/RetrofitDemo 仿retrofit 自定义注解网络请求
+
+5.https://github.com/Trinea/android-open-project 开源项目集合
+
+
