@@ -12,4 +12,6 @@ webview需要注意不能用单位适配。需要用px匹配
 6.getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS); 会导致小米等手机遮挡屏幕，webview无法弹出问题，适配webview根据不同位置做平阴
 和改变softmode
 
+7.https 对andorid 6.0以下的tls1.0 1.1证书的限制问题
+看SSLSocketFactoryCompat
 
