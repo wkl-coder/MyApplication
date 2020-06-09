@@ -19,3 +19,5 @@ webview需要注意不能用单位适配。需要用px匹配
 8.Error:null value in entry: outputDirectory=null 
 删掉根目录下.gradle文件夹，然后clean ，rebuild就行了
 
+9.若项目中在jnilib引入了so文件，还再gradle中用compile引用，可能导致去lib中寻找so，导致编译失败。
+
