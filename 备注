@@ -22,3 +22,9 @@ webview需要注意不能用单位适配。需要用px匹配
 9.若项目中在jnilib引入了so文件，还再gradle中用compile引用，可能导致去lib中寻找so，导致编译失败。
 
 10.e出行项目coomonbase/metro中utils，开发前看下是否能够使用，以免不必要的开放
+
+11.       WindowManager.LayoutParams lp = getWindow().getAttributes();
+        lp.flags |= WindowManager.LayoutParams.FLAG_FULLSCREEN;
+        getWindow().setAttributes(lp);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        全屏设置
