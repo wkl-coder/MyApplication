@@ -28,3 +28,4 @@ webview需要注意不能用单位适配。需要用px匹配
         getWindow().setAttributes(lp);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         全屏设置
+ 12.   Android Studio 打开启动项目的时候就提示了这么一个错误，具体什么原因我也不清楚，不过在尝试下关闭了电脑的移动热点后重新 Build 一下就没有再出现这个问题了
